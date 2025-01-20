@@ -1,0 +1,17 @@
+{
+    "dailySteps": [7000, 8500, 9000, 11000, 9500, 10000, 12000],
+    "caloriesBurned": [250, 300, 280, 350, 300, 400, 380],
+    "heartRate": {
+        "Monday": [60, 70, 80, 90],
+        "Tuesday": [65, 75, 85, 95]
+    },
+    "sleepPatterns": {
+        "Monday": 7.5,
+        "Tuesday": 6.8,
+        "Wednesday": 8,
+        "Thursday": 6.5,
+        "Friday": 7,
+        "Saturday": 8.5,
+        "Sunday": 9
+    }
+}
