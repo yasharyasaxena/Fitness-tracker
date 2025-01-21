@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer>
-      <p>&copy; 2025</p>
-    </footer>
+    <div className="p-10 border-t bg-[rgb(27,27,27)] text-white">
+      <p className="text-sm text-white">
+        © Copyright 2025 Yash IIT Indore. All rights reserved.
+      </p>
+    </div>
   );
-}
+};
+
+export default Footer;
