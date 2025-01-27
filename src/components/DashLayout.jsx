@@ -6,12 +6,13 @@ export default function DashLayout() {
   const Menu = [
     { name: "Dashboard", path: "/dashboard" },
     { name: "Analytics", path: "/dashboard/analytics" },
-    { name: "Sleep", path: "/dashboard/sleep" },
+    { name: "Heart Rate", path: "/dashboard/heart_rate" },
+    { name: "Remarks", path: "/dashboard/remarks" },
   ];
   return (
     <>
       <div className="flex">
-        <div className="bg-dark-purple h-85vh text-gray-300 p-5 pt-4 w-44 ml-5 text-center">
+        <div className="bg-dark-purple h-85vh sticky top-20 text-gray-300 p-5 pt-4 w-44 ml-5 text-center">
           <ul>
             {Menu.map((item, index) => {
               return (
