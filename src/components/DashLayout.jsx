@@ -7,7 +7,6 @@ export default function DashLayout() {
     { name: "Dashboard", path: "/dashboard" },
     { name: "Analytics", path: "/dashboard/analytics" },
     { name: "Heart Rate", path: "/dashboard/heart_rate" },
-    { name: "Remarks", path: "/dashboard/remarks" },
   ];
   return (
     <>

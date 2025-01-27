@@ -22,6 +22,14 @@ export default function Dashboard() {
           <ProgressBar progress={70} />
         </ul>
       </div>
+      <div className="pt-10">
+        <h2 className="text-2xl font-bold">Remarks</h2>
+        <p className="font-light">
+          Great job on your progress so far! Keep pushing towards your goals and
+          remember to stay consistent. Consistency is key to achieving long-term
+          success in your fitness journey.
+        </p>
+      </div>
     </div>
   );
 }
